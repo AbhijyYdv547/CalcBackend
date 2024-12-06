@@ -1,0 +1,91 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE or editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Python package manager directories
+.pip/
+__pypackages__/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Logs
+*.log
+
+# Test coverage
+.coverage
+*.coveragerc
+.tox/
+.nox/
+.coverage.*
+nosetests.xml
+pytest*.xml
+*.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+*.spec
+
+# Pipenv
+Pipfile.lock
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+/staticfiles/
+media/
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Sphinx documentation
+docs/_build/
+
+# pytest
+.cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Black formatting
+.pyblack/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+.env
